@@ -1,7 +1,6 @@
 function palindrome(str) {
-    let arr = str.split('').reverse().join('');
-    if (str === arr) return 'palindrome';
-    return 'not palindrome';
+    str = str.toLowerCase();
+    console.log(str);
 }
 
-console.log(palindrome('12321'));
+console.log(palindrome('racE car'));
